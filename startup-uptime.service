@@ -1,0 +1,6 @@
+[Unit]
+Description=my startup script
+[Service]
+ExecStart=/home/mohamedkhedr/Bash_script/hello.sh
+[Install]
+WantedBy=multi-user.target
